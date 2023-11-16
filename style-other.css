@@ -1,0 +1,43 @@
+﻿/* Общие стили для шапки и меню на остальных страницах */
+header {
+    background-color: #9370DB;
+    color: black;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+    nav ul li {
+        display: inline;
+        margin-right: 10px;
+    }
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+/* Общие стили для секций на остальных страницах */
+section {
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ddd;
+    background-color: #E6E6FA;
+}
+
+button {
+    background-color: #9370DB;
+    color: black;
+    border-radius: 8px;
+    border-color: #9370DB;
+    padding: 10px 20px;
+    font-weight: bold;
+    
+}
+
